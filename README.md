@@ -22,3 +22,9 @@ Esta herramienta la he desarrollado con la idea de que los administradores de re
 5. Una vez leas, autoservice -h || autoservice --help
 
 6. Ejecútala con los parámetros dados.
+
+
+### A TENER EN CUENTA ###
+
+Si tienes bloqueados ciertos comandos habiendo quitado permisos de SUID, debes de ejecutar como root.
+En caso de que esto tampoco funcione, debes de borrar los "sudo" delante de la función pkill y service *** status.
