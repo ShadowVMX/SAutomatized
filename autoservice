@@ -97,6 +97,7 @@ function KillCrons() {
 
 
 function SService() {
+		su
 		echo " "
 		read -p "[*]¿Qué proceso anda buscando? --> " SProceso 
 		echo " "
@@ -110,7 +111,7 @@ function SService() {
 		echo " "
 		echo "Ejecutando ..."
 		sleep 1
-		sudo pkill $SProceso
+		pkill $SProceso
 		echo " "
 		echo "Acabado con éxito."
 		echo " "
@@ -122,11 +123,11 @@ function SService() {
 		echo " "
 		read -p "¿Continuar? (Y/N) --> " setitoff
 		if [[ $setitoff = "Y" ]] || [[ $setitoff = "y" ]] ; then
-		sudo service $SProceso stop
+		service $SProceso stop
 		echo " "
 		echo "Llevado a cabo con éxito."
 		echo " "
-		sudo service $SProceso status
+		service $SProceso status
 		echo " "
 		fi
 		else
