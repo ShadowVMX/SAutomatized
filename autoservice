@@ -118,6 +118,17 @@ function SService() {
 		echo " "
 		ps aux | grep "$SProceso"
 		echo " "
+		echo "Si sigue viendo el agente activo, quiere decir que has de apagarlo manualmente."
+		echo " "
+		read -p "¿Continuar? (Y/N) --> " setitoff
+		if [[ $setitoff = "Y" ]] || [[ $setitoff = "y" ]] ; then
+		service $SProceso stop
+		echo " "
+		echo "Llevado a cabo con éxito."
+		echo " "
+		service $SProceso status
+		echo " "
+		fi
 		else
 		echo " "
 		echo "[*]Saliendo ..."
@@ -184,3 +195,6 @@ elif [[ $1 = "-ps" ]] ; then
 SService
 
 fi
+
+
+#Done#
