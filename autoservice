@@ -110,7 +110,7 @@ function SService() {
 		echo " "
 		echo "Ejecutando ..."
 		sleep 1
-		pkill $SProceso
+		sudo pkill $SProceso
 		echo " "
 		echo "Acabado con éxito."
 		echo " "
@@ -122,11 +122,11 @@ function SService() {
 		echo " "
 		read -p "¿Continuar? (Y/N) --> " setitoff
 		if [[ $setitoff = "Y" ]] || [[ $setitoff = "y" ]] ; then
-		service $SProceso stop
+		sudo service $SProceso stop
 		echo " "
 		echo "Llevado a cabo con éxito."
 		echo " "
-		service $SProceso status
+		sudo service $SProceso status
 		echo " "
 		fi
 		else
