@@ -26,6 +26,7 @@ Esta herramienta la he desarrollado con la idea de que los administradores de re
 
 ### A TENER EN CUENTA ###
 
-Tienes ---su--- en el autoservice -ps, por lo que si no te funciona debes de:
-  1. sudo passwd root --> Poner la contraseña que quieras.
-  2. Volver a ejecutar.
+
+Para el parámetro -ps, te recomiendo que lo ejecutes como root.
+
+Para el parámetro -e -s, te recomiendo que lo ejecutes como usuario normal, así podrás visualizarlo de forma totalmente sencilla en el navegador.
