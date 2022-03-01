@@ -135,7 +135,7 @@ if [[ -z $1 ]] && [[ -z $2 ]] ; then
 echo " "
 echo "[*] AUTOSERVICE [*]"
 echo " " 
-echo "Para usar la herramienta usaremos -> '--help' o '-h'"
+echo "Para información sobre la herramienta usaremos -> '--help' o '-h'"
 echo " "
 echo "Herramienta que se encarga de gestionar los procesos del sistema."
 echo " "
