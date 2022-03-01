@@ -11,7 +11,7 @@ Esta herramienta la he desarrollado con la idea de que los administradores de re
 ### INSTALACIÓN ###
 
 
-1. Tendrás un archivo de install.sh donde instalaremos todas las herramientas de gestión necesarias.
+1. Tendrás un archivo de setup.sh donde instalaremos todas las herramientas de gestión necesarias.
 
 2. Una vez hayas ejecutado toda la instalación por completo, das permisos de ejecución a autoservice --> chmod +x autoservice
 
