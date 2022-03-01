@@ -97,7 +97,6 @@ function KillCrons() {
 
 
 function SService() {
-		su
 		echo " "
 		read -p "[*]¿Qué proceso anda buscando? --> " SProceso 
 		echo " "
