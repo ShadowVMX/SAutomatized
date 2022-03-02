@@ -30,6 +30,11 @@ function Lsof() {
 		echo "Escaneando los servicios activos más importantes (por ejemplo, ssh.)"
 		echo " "
 		echo "Cuando desee, puede parar con ctrl+c, así podremos buscar información o simplemente acabar."
+		echo " "
+		echo "$(tput setaf 2)[+]RECUERDE: Este es un proceso lento, dale, al menos, 1 minuto para analizar TCP y UDP."
+		echo " "
+		echo "[+]GRACIAS POR SU PACIENCIA."
+		echo "$(tput setaf 7)"
 		i=1
 		echo " "
 		while [[ $i -le 65535 ]]
