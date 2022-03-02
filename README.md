@@ -10,18 +10,17 @@ Esta herramienta la he desarrollado con la idea de que los administradores de re
 
 ### INSTALACIÓN ###
 
+### chmod +x setup.sh ###
 
 1. Tendrás un archivo de setup.sh donde instalaremos todas las herramientas de gestión necesarias.
 
-2. Una vez hayas ejecutado toda la instalación por completo, das permisos de ejecución a autoservice --> chmod +x autoservice
+2. Si quieres que la ejecutes a nivel de "sistema" en los binarios del mismo mv autoservice /usr/bin.
 
-3. Si quieres que la ejecutes a nivel de "sistema" en los binarios del mismo mv autoservice /usr/bin.
+3. autoservice.
 
-4. autoservice.
+4. Una vez leas, autoservice -h || autoservice --help
 
-5. Una vez leas, autoservice -h || autoservice --help
-
-6. Ejecútala con los parámetros dados.
+5. Ejecútala con los parámetros dados.
 
 
 ### A TENER EN CUENTA ###
