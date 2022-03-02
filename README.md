@@ -30,3 +30,5 @@ Esta herramienta la he desarrollado con la idea de que los administradores de re
 Para el parámetro -ps, te recomiendo que lo ejecutes como root.
 
 Para el parámetro -e -s, te recomiendo que lo ejecutes como usuario normal, así podrás visualizarlo de forma totalmente sencilla en el navegador.
+
+Si no quieres actualizar todos los parámetros, comenta las líneas que NO quieras en el setup.sh
